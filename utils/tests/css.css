@@ -5,7 +5,7 @@ article h2,
 section h3 { line-height: 2em; } /*comment goes here*/
 
 h8 { color: blue; } /*non spec element*/
-
+ 
 div.styled { 
 	position: relative;
 	width: 10px;
@@ -13,7 +13,7 @@ div.styled {
 	background: #abc123 url('../folder/something.png');
 	-moz-opacity: 1.0;
 	-webkit-opacity: 1.0;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
 	opacity: 1.0 !important;
 	transition: width 2s;
